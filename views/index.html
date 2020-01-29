@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>todolist</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/style/style.css" type="text/css">
+    </head>
+
+    <body>
+        <div>
+            <h1><strong>The todolist share in real time</strong></h1>
+
+            <!-- The todolist -->
+            <fieldset>
+                <legend>My todolist</legend>
+                <div>
+                    <ul id="todolist">
+                        
+                    </ul>
+                </div>
+            </fieldset>
+
+            <!-- The form to add task -->
+            <form action="/" id="form-newTask">
+                <p>
+                    <label>How is your next task ?</label>
+                    <input type="text" name="newTask" id="newTask" placeholder="Enter the new task" autofocus>
+                    <input type="submit" value="Valider">
+                </p>
+            </form>
+
+            <!-- Call JS files -->
+            <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                    crossorigin="anonymous"></script>
+            <script src="/socket.io/socket.io.js"></script>
+            <script src="/js/todolist.js"></script>
+        </div>       
+        
+    </body>
+</html>

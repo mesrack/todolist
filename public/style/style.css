@@ -1,0 +1,37 @@
+fieldset
+{
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+fieldset div
+{
+    height: 500px;
+    overflow: auto;
+}
+
+legend
+{
+    margin-left: 12px;
+}
+
+a
+{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(255, 117, 117);
+    border-radius: 5px;
+}
+
+ul
+{
+    list-style: none;
+    padding-left: 20px;
+}
+
+li
+{
+    margin-bottom: 10px;
+}
