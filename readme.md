@@ -1,8 +1,8 @@
-# The todolist share in real time.
+# My todolist.
 
 Exercise in the context of an OpenClassRoom self-training.
 
-The objective of this exercise was to create a task list in real time and multi users.
+In real time, this todolist allows you to share tasks with other users..
 
 No data persistence was requested
 
